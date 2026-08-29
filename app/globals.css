@@ -1,19 +1,6 @@
-@import "tailwindcss";
-
-@theme {
-  --color-luxury-bg: #0B0B0B;
-  --color-luxury-surface: #121212;
-  --color-luxury-card: #171717;
-  --color-luxury-primary: #F5F2EA;
-  --color-luxury-muted: #8A8A8A;
-  --color-luxury-accent: #B89B5E;
-  --color-luxury-accent-light: #D4BA7F;
-  --color-luxury-border: rgba(255, 255, 255, 0.08);
-  --color-luxury-border-strong: rgba(184, 155, 94, 0.3);
-
-  --font-serif: 'Cinzel', serif;
-  --font-sans: 'Plus Jakarta Sans', sans-serif;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   --background: #0B0B0B;
