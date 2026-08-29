@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --color-luxury-bg: #0B0B0B;
+  --color-luxury-surface: #121212;
+  --color-luxury-card: #171717;
+  --color-luxury-primary: #F5F2EA;
+  --color-luxury-muted: #8A8A8A;
+  --color-luxury-accent: #B89B5E;
+  --color-luxury-accent-light: #D4BA7F;
+  --color-luxury-border: rgba(255, 255, 255, 0.08);
+  --color-luxury-border-strong: rgba(184, 155, 94, 0.3);
+
+  --font-serif: 'Cinzel', serif;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+:root {
+  --background: #0B0B0B;
+  --foreground: #F5F2EA;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-serif {
+  font-family: 'Cinzel', serif;
+}
+
+/* Glassmorphism & Surface Utilities */
+.glass-panel {
+  background: rgba(18, 18, 18, 0.7);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.glass-card {
+  background: rgba(23, 23, 23, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.border-subtle {
+  border-color: rgba(255, 255, 255, 0.08);
+}
